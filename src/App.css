@@ -16,8 +16,16 @@ button {
     cursor: pointer;
 }
 
+nav {
+    padding: 5px;
+    background-color: darkslategray;
+}
+
+nav a {
+    margin: 15px;
+}
+
 a {
-    display: block;
     font-size: 35px;
     color: lightblue;
 }
