@@ -15,3 +15,9 @@ button {
     border: 0;
     cursor: pointer;
 }
+
+a {
+    display: block;
+    font-size: 35px;
+    color: lightblue;
+}
