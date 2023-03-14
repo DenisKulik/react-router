@@ -5,7 +5,7 @@ export default function Menu() {
         <nav>
             <NavLink
                 style={({ isActive }) => isActive ?
-                    { color: 'lightyellow', 'text-decoration': 'none' } : {}}
+                    { color: 'lightyellow', textDecoration: 'none' } : {}}
                 to="."
                 end>Home</NavLink>
             <NavLink
