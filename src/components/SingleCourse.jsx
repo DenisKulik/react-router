@@ -11,7 +11,7 @@ export default function SingleCourse() {
         if (!course) {
             navigate('..', { relative: 'path' });
         }
-    }, [ course ]);
+    }, [ course, navigate ]);
 
     return (
         <>
